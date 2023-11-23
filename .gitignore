@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log*
+
+# Deps
+node_modules
+elm-stuff
+
+# Artifacts
+dist
+dist-ssr
+
+# Env
+*.local
+.envrc
+
+# Editors
+.idea
+.nova
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+.DS_Store
+.nix-*
+
+# Ensure we never have stale type declarations for our ports
+src/Main.elm.d.ts
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
